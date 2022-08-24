@@ -4,9 +4,8 @@ from pathlib import Path
 from time import sleep
 
 from duckduckgo_search import ddg_images
-from fastcore.all import L
 from fastai.vision.all import download_images, resize_images
-
+from fastcore.all import L
 
 PARENT_PATH = Path(__file__).parent
 CAMELS_DATA_PATH = Path(PARENT_PATH, "data/camels")

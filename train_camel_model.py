@@ -36,3 +36,12 @@ if __name__ == "__main__":
     learn = get_model()
     learn.path = MODEL_EXPORT_PATH
     learn.export()
+    print(learn) # noqa
+
+
+# epoch     train_loss  valid_loss  error_rate  time
+# 0         1.020272    0.756669    0.181818    00:05
+# epoch     train_loss  valid_loss  error_rate  time
+# 0         0.457090    0.822755    0.212121    00:06
+# 1         0.304414    0.902712    0.272727    00:06
+# 2         0.219171    0.874313    0.272727    00:06
